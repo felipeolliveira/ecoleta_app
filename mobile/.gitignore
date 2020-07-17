@@ -8,8 +8,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+*.lock
 
 # macOS
 .DS_Store
 
-yarn.lock
