@@ -1,5 +1,5 @@
 import React from "react";
-import { StatusBar, StyleSheet, Text, View } from "react-native";
+import { StatusBar } from "react-native";
 import { AppLoading } from "expo";
 
 import { Roboto_400Regular, Roboto_500Medium } from "@expo-google-fonts/roboto";
