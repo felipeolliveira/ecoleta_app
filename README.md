@@ -1,4 +1,4 @@
-<h1 align="center">Ecoleta - The best app for you </h1>
+<h1 align="center">Ecoleta - the "greenpeace" app </h1>
 <p align="center">
   <img src="./ecoleta.svg" width="200px"/>
 </p>
@@ -31,6 +31,19 @@ This app was developed on Next Level Week #01. It function is to find a waste co
 - [Axios](): for requests http.
 - [Celebrate](): a middleware function tha wraps the joi validation library.
 - [Knex](): a sql query builder
+
+## Run
+
+- Clone this repository.
+- Run:
+- `yarn` to install dependencies.
+- `yarn knex:migrate` to create a database.sqlite in **src/databse**.
+- `yarn knex:seed` to create default waste collect items.
+- Then run `yarn dev` for server, `yarn start` for web and mobile.
+
+### Stay Tuned
+
+If you test the mobile app on your smartphone (not emulated), check your IP in Expo Developer Tools and change the property `base_url` in `src/services/api.ts` because your smartphone cannot access localhost urls.
 
 ---
 
